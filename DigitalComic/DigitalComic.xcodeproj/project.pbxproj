@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6504484720E7F42600D34F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504484620E7F42600D34F2F /* AppDelegate.swift */; };
-		6504484920E7F42600D34F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504484820E7F42600D34F2F /* ViewController.swift */; };
-		6504484C20E7F42600D34F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6504484A20E7F42600D34F2F /* Main.storyboard */; };
 		6504484F20E7F42600D34F2F /* DigitalComic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6504484D20E7F42600D34F2F /* DigitalComic.xcdatamodeld */; };
-		6504485120E7F42600D34F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6504485020E7F42600D34F2F /* Assets.xcassets */; };
 		6504485420E7F42600D34F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6504485220E7F42600D34F2F /* LaunchScreen.storyboard */; };
 		6504485F20E7F42600D34F2F /* DigitalComicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504485E20E7F42600D34F2F /* DigitalComicTests.swift */; };
 		6504486A20E7F42600D34F2F /* DigitalComicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504486920E7F42600D34F2F /* DigitalComicUITests.swift */; };
+		6504487C20E7F45C00D34F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6504487720E7F45B00D34F2F /* Assets.xcassets */; };
+		6504487D20E7F45C00D34F2F /* GridTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504487820E7F45B00D34F2F /* GridTableViewCell.swift */; };
+		6504487E20E7F45C00D34F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6504487920E7F45C00D34F2F /* Main.storyboard */; };
+		6504487F20E7F45C00D34F2F /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504487A20E7F45C00D34F2F /* MainTableViewController.swift */; };
+		6504488020E7F45C00D34F2F /* GridTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6504487B20E7F45C00D34F2F /* GridTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +39,7 @@
 /* Begin PBXFileReference section */
 		6504484320E7F42600D34F2F /* DigitalComic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalComic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6504484620E7F42600D34F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6504484820E7F42600D34F2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6504484B20E7F42600D34F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6504484E20E7F42600D34F2F /* DigitalComic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DigitalComic.xcdatamodel; sourceTree = "<group>"; };
-		6504485020E7F42600D34F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6504485320E7F42600D34F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6504485520E7F42600D34F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6504485A20E7F42600D34F2F /* DigitalComicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalComicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,11 @@
 		6504486520E7F42600D34F2F /* DigitalComicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalComicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6504486920E7F42600D34F2F /* DigitalComicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalComicUITests.swift; sourceTree = "<group>"; };
 		6504486B20E7F42600D34F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6504487720E7F45B00D34F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../ComicDemo/Assets.xcassets; sourceTree = "<group>"; };
+		6504487820E7F45B00D34F2F /* GridTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridTableViewCell.swift; sourceTree = "<group>"; };
+		6504487920E7F45C00D34F2F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6504487A20E7F45C00D34F2F /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		6504487B20E7F45C00D34F2F /* GridTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				6504484620E7F42600D34F2F /* AppDelegate.swift */,
-				6504484820E7F42600D34F2F /* ViewController.swift */,
-				6504484A20E7F42600D34F2F /* Main.storyboard */,
-				6504485020E7F42600D34F2F /* Assets.xcassets */,
+				6504487920E7F45C00D34F2F /* Main.storyboard */,
+				6504487A20E7F45C00D34F2F /* MainTableViewController.swift */,
+				6504487820E7F45B00D34F2F /* GridTableViewCell.swift */,
+				6504487B20E7F45C00D34F2F /* GridTableViewCell.xib */,
 				6504485220E7F42600D34F2F /* LaunchScreen.storyboard */,
+				6504487720E7F45B00D34F2F /* Assets.xcassets */,
 				6504485520E7F42600D34F2F /* Info.plist */,
 				6504484D20E7F42600D34F2F /* DigitalComic.xcdatamodeld */,
 			);
@@ -233,8 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6504485420E7F42600D34F2F /* LaunchScreen.storyboard in Resources */,
-				6504485120E7F42600D34F2F /* Assets.xcassets in Resources */,
-				6504484C20E7F42600D34F2F /* Main.storyboard in Resources */,
+				6504488020E7F45C00D34F2F /* GridTableViewCell.xib in Resources */,
+				6504487E20E7F45C00D34F2F /* Main.storyboard in Resources */,
+				6504487C20E7F45C00D34F2F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6504484920E7F42600D34F2F /* ViewController.swift in Sources */,
 				6504484720E7F42600D34F2F /* AppDelegate.swift in Sources */,
 				6504484F20E7F42600D34F2F /* DigitalComic.xcdatamodeld in Sources */,
+				6504487F20E7F45C00D34F2F /* MainTableViewController.swift in Sources */,
+				6504487D20E7F45C00D34F2F /* GridTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6504484A20E7F42600D34F2F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6504484B20E7F42600D34F2F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6504485220E7F42600D34F2F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
